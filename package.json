@@ -23,6 +23,8 @@
     "html-to-pdfmake": "^2.3.10",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.5.23",
+    "ngx-print": "^1.2.1",
+    "ngx-print-element": "^2.0.14",
     "pdfmake": "^0.2.5",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

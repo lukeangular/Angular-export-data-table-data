@@ -1,5 +1,6 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import * as XLSX from 'xlsx';
+import { NgxPrintElementService } from 'ngx-print-element';
 
 import { jsPDF } from 'jspdf';
 import 'jspdf-autotable';
@@ -70,6 +71,8 @@ export class AppComponent {
       "email": "Lucio_Hettinger@annie.ca"
     }
   ]
+
+  constructor(public print: NgxPrintElementService) {}
 
   title = 'exportTo';
   fileName = 'ExcelSheet.xlsx';
